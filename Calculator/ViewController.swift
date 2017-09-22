@@ -57,6 +57,19 @@ class ViewController: UIViewController {
         computed = true;
     }
     
+    @IBAction func dotPressed(_ sender: UIButton) {
+        
+        
+        /*let rightHandSide = Double(displayLabel.text!)!
+        let count: Int = (Int)(rightHandSide/10)
+        
+        if(count == 0){
+            
+        }
+        displayLabel.text = " \(leftHandSide + rightHandSide*(Double)(10^(-count)))"
+        computed = false; */
+    }
+    
     @IBAction func clearPressed() {
         leftHandSide = 0
         selectedOperator = ""
